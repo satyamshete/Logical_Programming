@@ -8,6 +8,7 @@
             Console.WriteLine("Logical Programming");
             Console.WriteLine("1. Fibonacci Series");
             Console.WriteLine("2. Perfect Number");
+            Console.WriteLine("3 Prime Number");
             int answer = Convert.ToInt32(Console.ReadLine());
             switch (answer)
             {
@@ -18,6 +19,9 @@
                     PerfectNumber perfect = new PerfectNumber();
                     break;
                 default:
+                case 3:
+                    PrimeNumbers primeNumbers = new PrimeNumbers();
+                    break;
                     Console.WriteLine("Give proper selection");
                     break;
 
