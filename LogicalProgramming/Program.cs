@@ -11,6 +11,7 @@
             Console.WriteLine("3 Prime Number");
             Console.WriteLine("4 Reverse a number");
             Console.WriteLine("5. Coupan Numbers");
+            Console.WriteLine("6. Simulate Stopwatch Program");
             int answer = Convert.ToInt32(Console.ReadLine());
             switch (answer)
             {
@@ -29,6 +30,9 @@
                     break;
                 case 5:
                     CoupanNumbers coupanNumbers = new CoupanNumbers();
+                    break;
+                case 6:
+                    StopWatch stopWatch = new StopWatch();
                     break;
                 default:
                     Console.WriteLine("Give proper selection");
