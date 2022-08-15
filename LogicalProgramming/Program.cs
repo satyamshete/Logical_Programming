@@ -10,6 +10,7 @@
             Console.WriteLine("2. Perfect Number");
             Console.WriteLine("3 Prime Number");
             Console.WriteLine("4 Reverse a number");
+            Console.WriteLine("5. Coupan Numbers");
             int answer = Convert.ToInt32(Console.ReadLine());
             switch (answer)
             {
@@ -25,6 +26,9 @@
                     break;
                 case 4:
                     ReverseNumber reverse = new ReverseNumber();
+                    break;
+                case 5:
+                    CoupanNumbers coupanNumbers = new CoupanNumbers();
                     break;
                 default:
                     Console.WriteLine("Give proper selection");
